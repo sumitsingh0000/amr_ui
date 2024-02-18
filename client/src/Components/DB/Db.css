@@ -1,0 +1,41 @@
+.db-new-status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.db-station-data{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.db-container{
+    transition:  all 0.5 ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    padding: 5%;
+    justify-content: space-between;
+   
+    text-align: center;
+}
+.db-table-motors{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.db-table-motors>div{
+    background-color: rgb(66, 255, 122);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3px;
+    width: 25%;
+    font-weight: bolder;
+    color: white;
+}

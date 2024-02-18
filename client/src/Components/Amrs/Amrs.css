@@ -1,0 +1,90 @@
+.allAmrs{
+    position: absolute;
+    left: 10%;
+    width: 10%;
+    
+    top: 60px;
+    display: flex;
+
+    flex-direction: column;
+ 
+}
+.amr_selected{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  border-radius: 50px;
+  background-color: azure;
+}
+.select_amr{
+  margin-top: 2px;
+  background-color: rgb(250, 255, 255);
+  border-radius: 10px;
+
+  animation-name: select_amr_animation;
+  animation-duration: .05s;
+}
+@keyframes select_amr_animation {
+  from {
+    height: 20px;
+/* background-color: rgba(238, 238, 238, 0.733); */
+  }
+
+  to {
+    height: auto
+  }
+}
+
+.select_amr>div{
+color: rgb(58, 58, 58);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px 9px;
+}
+.select_amr>div:hover{
+  background-color: rgb(90, 145, 218);
+  color: white;
+}
+
+@media only screen and (min-width: 925px)and (max-width:1200px) {
+  .allAmrs{
+    /* left: 55%;
+  
+    width: 40%; */
+  
+    width: 15%;
+  }
+  }
+@media only screen and (min-width:680px)and (max-width:925px) {
+  .allAmrs{
+  
+  
+    width: 20%;
+  
+ 
+ 
+  }
+  }
+  
+
+@media only screen and (min-width:500px)and (max-width:680px) {
+  .allAmrs{
+  
+  
+    width: 25%;
+
+ 
+  }
+  }
+    
+
+@media only screen and (min-width:50px)and (max-width:500px) {
+  .allAmrs{
+  
+  
+    width: 40%;
+ 
+  }
+  }
+  

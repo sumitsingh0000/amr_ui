@@ -1,0 +1,39 @@
+.new-st-cam-container {
+  /* background-color: rgb(31, 28, 28); */
+  width: 60%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.new-st-cam-data-div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 25%;
+  background-color: white;
+  padding: 1px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+
+.new-st-table-items {
+  width: 100%;
+  display: flex;
+  /* background-color: white; */
+  color: var(--textColor);
+  justify-content: space-between;
+  border: 1px solid rgb(243, 243, 245);
+  align-items: center;
+  font-size: small;
+  padding: 0px 5px;
+}
+
+.new-st-table-head {
+  background-color: var(--db_table_head_back_color);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 10px; */
+}

@@ -1,0 +1,34 @@
+gnome-terminal -- bash -c "ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py; exec bash"
+gnome-terminal -- bash -c "ros2 launch turtlebot3_navigation2 navigation2.launch.py; exec bash"
+gnome-terminal -- bash -c "ros2 launch rosbridge_server rosbridge_websocket_launch.xml; exec bash"
+gnome-terminal -- bash -c "ros2 run vizanti_demos path_to_nav2poses; exec bash"
+
+
+
+
+
+sudo service mongod start
+
+ sudo npm i pm2 -g
+
+
+ros2 launch turtlebot3_navigation2 navigation2.launch.py map_file_name:=
+
+
+
+
+
+
+//for starting the depolyment server
+
+ pm2 start index.js
+
+ //for stoping it
+
+ pm2 stop index.js
+
+ //other useful commands
+ pm2 restart
+ pm2 delete 
+ pm2 describe
+ pm2 reload all

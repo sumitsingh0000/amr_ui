@@ -1,0 +1,68 @@
+.mapping-confirmSave {
+    position: absolute;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.486);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapping-confirmSave-main {
+    height: 50%;
+    width: 50%;
+    background-color: var(--sidebarBackColor);
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3px;
+
+}
+
+.mapping-confirmSave-main>h1 {
+    /* background-color: aquamarine; */
+    font-size: xx-large;
+    color: var(--textColor);
+}
+
+.mapping-confirmSave-main-1 {
+    /* background-color: aquamarine; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mapping-confirmSave-main>div>button {
+    width: 25%;
+    /* background-color: aquamarine; */
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.mapping-confirmSave-cancel {
+    background-image: linear-gradient(rgb(255, 110, 110), var(--red));
+
+}
+
+.mapping-confirmSave-yes {
+
+    background-image: linear-gradient(rgb(92, 255, 70), var(--battery-green));
+
+}
+
+.mapping-confirmSave-cancel:hover {
+    background-image: linear-gradient(rgb(226, 85, 85), var(--red));
+
+}
+
+.mapping-confirmSave-yes:hover {
+
+    background-image: linear-gradient(rgb(73, 233, 52), var(--battery-green));
+
+}

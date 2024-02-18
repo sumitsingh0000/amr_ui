@@ -1,0 +1,24 @@
+.mapping_save{
+    position: absolute;
+    top: 10%;
+    right :10px;
+    color: white;
+    background-image: linear-gradient(rgb(92, 255, 70), var(--battery-green));
+
+    border-radius: 40px;
+    /* height: 10%;
+    width: 10%; */
+    padding: 5px 10px;
+    font-weight: 900;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+.mapping_save:hover{
+  
+    background-image: linear-gradient(rgb(70, 236, 48), var(--battery-green));
+
+    
+
+}

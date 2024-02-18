@@ -1,0 +1,53 @@
+#mapping{
+    height: 100%;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    /* background: rgb(187, 166, 166); */
+}
+.mapping-amrslist{
+    
+    width: 100%;
+    height: 100%;
+    /* background: rgb(192, 108, 108); */
+
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    overflow: scroll;
+}
+.mapping-amrslist>div{
+    height: 50%;
+    width: 50%;
+    background-color: var(--sidebarBackColor);
+    color: var(--textColor);
+    display: flex;
+   padding: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    font-size: xx-large;
+    font-weight: bolder;
+    transition: 0.4s;
+  
+}
+.mapping-amrslist>div:hover{
+   
+  background-color: aliceblue;
+    /* background-color: var(--navbarBackColor);
+    color: var(--white); */
+  
+}
+.mapping-amrslist>div:active{
+   
+  
+    background-color: var(--navbarBackColor);
+    color: var(--white);
+  
+}

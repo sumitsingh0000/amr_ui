@@ -1,0 +1,23 @@
+
+
+.container-con{
+    display: flex;
+    margin-top: 80%;
+    gap: 10%;
+  }
+  
+  .conveyor-table{
+    font: 1em sans-serif;
+    font-size: smaller;
+    margin-top: 5%;
+    border-collapse: collapse;
+  
+  }
+  
+  .conveyor-table th,
+  .conveyor-table td{
+    padding: 6px;
+    border: 1px solid black;
+  }
+
+  

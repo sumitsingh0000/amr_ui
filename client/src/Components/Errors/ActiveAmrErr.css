@@ -1,0 +1,59 @@
+.amr_err {
+
+    background-color: rgba(255, 0, 0, 0.87);
+
+    color: white;
+
+    position: absolute;
+
+    top: 15%;
+
+    left: 33%;
+
+    width: 33%;
+
+    height: 10%;
+
+    animation-name: example_amr_err;
+
+    animation-duration: .8s;
+
+    font-size: x-large;
+
+    font-weight: bold;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 10px;
+
+
+
+}
+
+@keyframes example_amr_err {
+
+    from {
+
+        background-color: rgba(255, 0, 0, 0);
+
+        top: -10%;
+
+
+
+
+
+    }
+
+    to {
+
+        top: 14.5%;
+
+
+
+    }
+
+}

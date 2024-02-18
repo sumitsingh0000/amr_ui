@@ -1,0 +1,93 @@
+.db-amr-container {
+  font-family: Arial, sans-serif;
+
+  font-size: small;
+  transition: all 0.5 ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.db-station-container {}
+
+.rounded-table {
+  border-radius: 10px;
+  /* Adjust the value as needed */
+}
+
+.db-data-table {
+  border-collapse: collapse;
+  width: auto;
+}
+
+
+
+.db-data-table th {
+  background-color: var(--db_table_head_back_color);
+  color: var(--white);
+  padding: 10px;
+  /* border: 2px solid rgb(255, 255, 255); */
+
+
+
+}
+
+.db-data-table td {
+  padding: 8px;
+  /* border: 2px solid rgb(255, 254, 254); */
+  color: var(--textColor);
+
+
+
+}
+
+.station-name {
+
+  font-size: medium;
+  font-family: Arial, sans-serif;
+  color: gray;
+}
+
+.AMR-name {
+
+  font-size: medium;
+  font-family: Arial, sans-serif;
+  color: gray;
+}
+
+tr:nth-child(even) {
+
+  background-color: var(--db_table_row_back_color_even);
+}
+
+tr:nth-child(odd) {
+  background-color: var(--db_table_row_back_color_odd);
+}
+
+#battery-green {
+  color: white;
+  background-color: #90EE90;
+  font-weight: bolder;
+}
+
+#battery-orange {
+  color: white;
+  background-color: var(--orange);
+  font-weight: bolder;
+}
+
+#battery-red {
+  color: white;
+  background-color: var(--red);
+  font-weight: bolder;
+}
+#db-amr-del{
+  color: rgb(252, 68, 68);
+}
+#db-amr-del:hover{
+  color: red;
+  background-color: rgb(255, 198, 198);
+}

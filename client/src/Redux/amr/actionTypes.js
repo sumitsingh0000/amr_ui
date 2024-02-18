@@ -1,0 +1,37 @@
+export const SET_LOADING = "SET_LOADING"
+
+export const SET_AMRS_DATA = "SET_AMRS_DATA"
+
+export const SET_AMR_PATH = "SET_AMR_PATH"
+
+export const SET_AMR_IS_SET_GAOL = "SET_AMR_IS_SET_GAOL"
+
+export const SET_AMR_GOAL = "SET_AMR_GOAL"
+
+export const SET_AMR_GOAL_ORIENTATION = "SET_AMR_GOAL_ORIENTATION"
+
+export const SET_IS_ADD_AMR = "SET_IS_ADD_AMR"
+
+export const ADD_AMR = "ADD_AMR"
+
+export const SET_ACTIVE_AMR = "SET_ACTIVE_AMR"
+
+
+
+export const SET_AMR_IS_SET_POSE = "SET_AMR_IS_SET_POSE"
+
+export const SET_AMR_POSE = "SET_AMR_POSE"
+
+export const SET_AMR_TEMP_POSE = "SET_AMR_TEMP_POSE"
+
+export const SET_AMR_POSE_ORIENTATION = "SET_AMR_POSE_ORIENTATION"
+
+export const SET_SHOW_INIT_POSE = "SET_SHOW_INIT_POSE"
+
+export const SET_SHOW_AMR_STATUS = "SET_SHOW_AMR_STATUS"
+
+
+
+export const SET_SHOW_ACTIVE_AMR_ERR = "SET_SHOW_ACTIVE_AMR_ERR"
+export const SET_JOY_SHOW = "SET_JOY_SHOW"
+

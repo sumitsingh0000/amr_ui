@@ -1,0 +1,16 @@
+.mapping-functionalitybox{
+    background-color: aqua;
+
+    width: 100%;
+
+    height: 65px;
+
+    position: absolute;
+
+    z-index: 3;
+
+    top: 85%;
+
+    left: 0;
+
+}
